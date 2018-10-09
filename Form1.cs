@@ -23,7 +23,11 @@ namespace Demo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Click");
+            int n;
+            if (n < 10)
+            {
+                MessageBox.Show("Click");
+            }
         }
     }
    // thêm một vài ghi chú :))
