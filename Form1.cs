@@ -23,7 +23,11 @@ namespace Demo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Click");
+            if (TexBox1.Text != "" && TextBox2.Text != "")
+            {
+                int a = int.Parse(TextBox1.Text);
+                int b = int.Parse(TextBox2.Text);
+            }
         }
     }
    // thêm một vài ghi chú :))
